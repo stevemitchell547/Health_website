@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css stylesheet.css">
+<title>Contact us</title>
+<style>
+<script>
+		function validate(form)
+		{
+			if (form.Forename.value== "") return false;
+			if (form.Surname.value== "") return false;
+			if (form.email.value== "") return false;
+			return true;
+		}
+	</script>
+</style>
+</head>
+<body>
+<div class="middle">
+<div class="buttonbar1">
+	</div>
+	<div class="buttonbar">
+		<a href="Introduction.html"><img src="button.png" onmouseover="this.src='button6.png'" onmouseout="this.src='button.png'"></a>
+		<a href="sexualhealthinyoungadults.html"><img src="button2.png" onmouseover="this.src='button7.png'" onmouseout="this.src='button2.png'"></a>
+		<a href="understandingsexualhealth.html"><img src="button3.png" onmouseover="this.src='button8.png'" onmouseout="this.src='button3.png'"></a>
+		<a href="STDS.html"><img src="button4.png" onmouseover="this.src='button9.png'" onmouseout="this.src='button4.png'"></a>
+		<a href="contactus.html"><img src="button5.png" onmouseover="this.src='button10.png'" onmouseout="this.src='button5.png'"></a>
+	</div>
+	<img src="image 3.png" align="right">
+	<div class="h1"><h1>Get Help!</h1>
+	</div>
+	<div class="text"><p>
+	There are lots of services available online to get help. </p>
+	<a href="http://www.nhs.uk/NHSEngland/AboutNHSservices/sexual-health-services/Pages/guide-to-sexual-health-services.aspx">NHS </a>
+	<br>
+	<a href="http://www.sexualhealthteesside.co.uk/">Help website</a>
+	<br>
+	<a href="https://onlinedoctor.lloydspharmacy.com/uk/sexual-health">lloyds pharmacy</a> 
+	<p> Or you can enter your email adress below and we will contact you!</p>
+	<form onsubmit='return validate(this)' method='get' action='mailto:498487@live.oldham.ac.uk'>
+		<div><b>Forename:</b><input name='forename' size='30'> </div>
+		<div><b>Surename:</b><input name='surname' size='30'> </div>
+		<div><b>Email:</b><input name='email' size='30' required> </div>
+		<input type='submit'>
+	</form>
+	</div>
+	<div class="footer">
+	<a href="../main.html"><img class="logo" src="logo.png" alt="logo"style="300px;height:200px;"></a>
+	</div>
+</body>
+</html>
+	 
+	
+	
+	
